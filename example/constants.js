@@ -15,4 +15,4 @@ export const params_sample = JSON.stringify([
   5000000000000000000,
 ]);
 
-export const explorer_url = "https://microscope.test.imn.com/tx/";
+export const explorer_url = "https://testscope.initialmn.io/tx/";

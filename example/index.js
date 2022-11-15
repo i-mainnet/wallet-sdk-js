@@ -42,7 +42,7 @@ let params = params_sample;
 let event_func = null;
 
 // baseURL 커스텀 세팅 (선택사항)
-imnSDK.setBaseURL("https://a2a.test.imn.com/api/v1/a2a");
+imnSDK.setBaseURL("https://testbackend.initialmn.io/v1/a2a");
 
 // 요청하는 앱의 서비스 정보
 const meta = {
@@ -136,7 +136,7 @@ function responseWait(requestId, completed) {
  * 지갑앱을 실행하기 위한 URL Scheme을 QRCODE로 보여줌
  */
 function showQRCode(requestId) {
-  const content = "imn://wallet?requestId=" + requestId;
+  const content = "inwallet://wallet?requestId=" + requestId;
   qrContent.innerText = content;
   QRCode.toCanvas(qrCanvas, content);
   qrDialog.style.display = "flex";

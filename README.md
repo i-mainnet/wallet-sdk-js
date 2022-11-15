@@ -43,10 +43,10 @@ Can change the network if necessary. The default network is Mainnet, but it is n
 
 **Be sure to set it as testnet.**
 
-- Testnet : https://a2a.test.imn.com/api/v1/a2a
+- Testnet : https://testbackend.initialmn.io/v1/a2a
 
 ```javascript
-imnSDK.setBaseURL("https://a2a.test.imn.com/api/v1/a2a");
+imnSDK.setBaseURL("https://testbackend.initialmn.io/v1/a2a");
 ```
 
 ## Run Example codes
@@ -255,13 +255,13 @@ A user can create a Scheme that calls the app with the request ID received from 
 **Scheme**
 
 ```
-imn://wallet?requestId={request_id}
+inwallet://wallet?requestId={request_id}
 ```
 
 **Example**
 
 ```
-imn://wallet?requestId=569308f1-5d21-4ffc-abc5-1c3f4fcd12b7
+inwallet://wallet?requestId=569308f1-5d21-4ffc-abc5-1c3f4fcd12b7
 ```
 
 ### Result
