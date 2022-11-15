@@ -1,0 +1,56 @@
+.mainDiv {
+  position: relative;
+  padding: 20px;
+}
+
+button {
+  height: 20px;
+  line-height: 0;
+}
+
+input {
+  border-color: gray;
+}
+
+.mainBtn {
+  margin-right: 10px;
+}
+
+.closeDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#request_content {
+  margin: 20px 0;
+}
+
+.address {
+  width: 380px;
+}
+
+#qrcode_dialog {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#qr_content {
+  background-color: white;
+  width: 550px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
